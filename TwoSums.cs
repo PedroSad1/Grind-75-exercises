@@ -1,19 +1,6 @@
 ﻿using System;
-
-public class HelloWorld
+public class TwoSums
 {
-    public static void Main(string[] args)
-    {
-        int[] nums = { 3, 2, 3 };
-        int target = 6;
-        var result = TwoSum(nums, target);
-
-        foreach (var value in result)
-        {
-            Console.WriteLine(value);
-        }
-    }
-
     public static int[] TwoSum(int[] nums, int target)
     {
         Dictionary<int, int> map = new Dictionary<int, int>();
